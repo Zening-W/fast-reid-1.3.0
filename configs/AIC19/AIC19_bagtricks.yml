@@ -1,0 +1,8 @@
+_BASE_: ../Base-bagtricks.yml
+
+DATASETS:
+  NAMES: ("AIC19",)
+  TESTS: ("AIC19",)
+
+
+OUTPUT_DIR: logs/aic19/bagtricks_R50_v4
