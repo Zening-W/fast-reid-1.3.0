@@ -1,3 +1,3 @@
-This project is orignally adapted from https://github.com/JDAI-CV/fast-reid. I first do the training from provided market1501 dataset and achieve excellent performance as predicted.
-I personally did a training on a customaized dataset from AI City Challenge 2019. Because only the training set from this dataset has required information, vechile id and person id.
-I have to split the training set into 3 new sets:training, testing and query. The training finally gets very good accuracy, the results s
+This project is orignally adapted from https://github.com/JDAI-CV/fast-reid. I first do the training from provided market1501 dataset and achieve excellent performance as predicted. The results are saved at logs\market1501.
+
+I personally did a training on a customaized dataset from AI City Challenge 2019. Because only the training set from this dataset has required information, vechile id and person id.I have to split the training set into 3 new sets(parse.py):training, testing and query. Then I wrote a data loading script(fastreid\data\datasets\AIC19.py) and a config file(configs\AIC19\AIC19_bagtricks.yml). The training finally gets very good accuracy, the results are saved at logs\aic19\bagtricks_R50_v4 and visualization saved at logs\aic19\bagtricks_R50_vis_new. 
