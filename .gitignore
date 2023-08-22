@@ -1,5 +1,5 @@
 
-logs
+
 
 # compilation and distribution
 __pycache__
@@ -29,7 +29,7 @@ model_ts*.txt
 *.swo
 *.swp
 *~
-
+.pickle
 # editor settings
 .idea
 .vscode
